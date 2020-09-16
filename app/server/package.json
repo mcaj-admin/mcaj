@@ -1,0 +1,58 @@
+{
+  "name": "@storybook/server",
+  "version": "6.1.0-alpha.3",
+  "description": "Storybook for Server: View HTML snippets from a server in isolation with Hot Reloading.",
+  "keywords": [
+    "storybook"
+  ],
+  "homepage": "https://github.com/storybookjs/storybook/tree/master/app/server",
+  "bugs": {
+    "url": "https://github.com/storybookjs/storybook/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/storybookjs/storybook.git",
+    "directory": "app/server"
+  },
+  "license": "MIT",
+  "main": "dist/client/index.js",
+  "types": "dist/client/index.d.ts",
+  "bin": {
+    "build-storybook": "./bin/build.js",
+    "start-storybook": "./bin/index.js",
+    "storybook-server": "./bin/index.js"
+  },
+  "files": [
+    "bin/**/*",
+    "dist/**/*",
+    "README.md",
+    "*.js",
+    "*.d.ts",
+    "ts3.5/**/*"
+  ],
+  "scripts": {
+    "prepare": "node ../../scripts/prepare.js"
+  },
+  "dependencies": {
+    "@storybook/addons": "6.1.0-alpha.3",
+    "@storybook/api": "6.1.0-alpha.3",
+    "@storybook/core": "6.1.0-alpha.3",
+    "@storybook/node-logger": "6.1.0-alpha.3",
+    "@types/webpack-env": "^1.15.2",
+    "core-js": "^3.0.1",
+    "global": "^4.3.2",
+    "regenerator-runtime": "^0.13.3",
+    "safe-identifier": "^0.4.1",
+    "ts-dedent": "^1.1.1"
+  },
+  "devDependencies": {
+    "fs-extra": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "677dc96dfcd7922bf1a6518882d4dc165d57501f"
+}
