@@ -40,11 +40,11 @@
     "global": "^4.3.2",
     "qs": "^6.6.0",
     "react": "^16.8.3",
-    "regenerator-runtime": "^0.13.3",
+    "regenerator-runtime": "^0.13.7",
     "ts-dedent": "^1.1.1"
   },
   "devDependencies": {
-    "@types/webpack-env": "^1.15.2"
+    "@types/webpack-env": "^1.15.3"
   },
   "peerDependencies": {
     "react-dom": "*"
