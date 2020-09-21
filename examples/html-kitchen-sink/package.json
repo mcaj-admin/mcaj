@@ -31,7 +31,7 @@
     "@storybook/core-events": "6.1.0-alpha.3",
     "@storybook/html": "6.1.0-alpha.3",
     "@storybook/source-loader": "6.1.0-alpha.3",
-    "eventemitter3": "^4.0.0",
+    "eventemitter3": "^4.0.7",
     "format-json": "^1.0.3",
     "global": "^4.3.2",
     "postcss-color-rebeccapurple": "^6.0.0"
