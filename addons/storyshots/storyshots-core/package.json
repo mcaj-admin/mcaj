@@ -45,7 +45,7 @@
     "global": "^4.3.2",
     "jest-specific-snapshot": "^4.0.0",
     "pretty-format": "^26.4.0",
-    "read-pkg-up": "^7.0.0",
+    "read-pkg-up": "^8.0.0",
     "regenerator-runtime": "^0.13.3",
     "ts-dedent": "^1.1.1"
   },
